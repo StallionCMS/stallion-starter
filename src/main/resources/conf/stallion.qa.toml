@@ -1,0 +1,8 @@
+# The URL at which your site is located
+#siteUrl = ""
+#cdnUrl = "http://localhost:{port}"
+
+#[database]
+#url = "jdbc:mysql://localhost:3306/mydatabase?autoReconnect=true"
+#username = ""
+#password = ""

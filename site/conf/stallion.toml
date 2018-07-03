@@ -1,0 +1,34 @@
+# The URL at which your site is located
+siteUrl = "http://localhost:{port}"
+cdnUrl = "http://localhost:{port}"
+
+healthCheckSecret = "czLrEp2MoaK67BXDFH3R"
+
+#[database]
+#url = "jdbc:mysql://localhost:3306/mydatabase?autoReconnect=true"
+#username = ""
+#password = ""
+
+
+#[email]
+#host = ""
+#port =
+#username = ""
+#password = ""
+#adminEmails = [""]
+
+
+# Define styles for all the builtin screens and emails, such as the login page, the password reset emails, etc.
+[styles]
+highlightColor = "#2184A5"
+#logoImage = "/st-assets/images/logo.png"
+#backgroundColor = "#F9F9F9"
+#mainBodyColor = "#FFFFFF"
+#linkColor = "#993333"
+#logoTextColor = "#993333"
+#primaryButtonColor = "#993333"
+#headerFont = "'Helvetica Neue', Helvetica, Arial, sans-serif"
+#bodyFont = "'Helvetica Neue', Helvetica, Arial, sans-serif"
+#customCss = ""
+#footer = "Copyright 2016 My Company Inc."
+
