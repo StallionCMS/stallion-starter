@@ -124,7 +124,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>$PACKAGE_NAME$.MainRunner</mainClass>
+                            <mainClass>$PACKAGE_NAME$.boot.Main</mainClass>
                         </manifest>
                         <manifestEntries>
                             <pluginBooterClass>$PACKAGE_NAME$.$APP_TITLE_CAMEL$StallionApp</pluginBooterClass>

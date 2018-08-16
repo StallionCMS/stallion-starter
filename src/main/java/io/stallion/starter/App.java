@@ -92,7 +92,7 @@ public class App
         copy("/java-src/testing/TestMyApp.java", packageTestPath + "/TestMyApp.java");
 
         copy("/java-src/boot/MyZyxAppSettings.java", packageMainPath + "/boot/MyZyxAppSettings.java");
-        copy("/java-src/boot/MainRunner.java", packageMainPath + "/boot/MainRunner.java");
+        copy("/java-src/boot/Main.java", packageMainPath + "/boot/Main.java");
         copy("/java-src/boot/MyZyxAppStallionApp.java", packageMainPath + "/boot/MyZyxAppStallionApp.java");
 
 

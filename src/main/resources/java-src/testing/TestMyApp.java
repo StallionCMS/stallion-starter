@@ -5,6 +5,7 @@ import io.stallion.testing.MockResponse;
 import io.stallion.testing.TestClient;
 import io.stallion.users.IUser;
 import io.stallion.users.User;
+import io.stallion.users.Role;
 import io.stallion.users.UserController;
 import io.stallion.utils.GeneralUtils;
 import org.junit.After;
