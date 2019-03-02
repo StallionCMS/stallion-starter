@@ -21,15 +21,10 @@
     {% for rss_link in meta.rssLinks %}
     <link rel="alternate" type="application/rss+xml" title="{{ rss_link.title }}" href="{{ rss_link.link }}" />
     {% endfor %}
-    {% block builtin_head_bundles %}
-    {{ assets.bundle("stallion", "stallion-ui-lib.bundle.css") }}
-    {% endblock %}
     {% block bundle_css %}
     {{ assets.bundle("$APP_NAME$", "app.bundle.css") }}
     {% endblock %}
-    {% block per_request_head_literals %}
-    {{ assets.pageHeadLiterals() }}
-    {% endblock %}
+
     {% block extra_head %}
     {% endblock %}
 
@@ -49,14 +44,12 @@
 
 </script>
 
-{{ assets.bundle("stallion", "stallion-ui-lib.bundle.js") }}
+
 {%-- endblock --%}
 {%-- block bundle_js --%}
 {{ assets.bundle("$APP_NAME$", "app.bundle.js") }}
 {%-- endblock --%}
-{%-- block per_request_footer_literals --%}
-{{ assets.pageFooterLiterals() }}
-{%-- endblock --%}
+
 
 {% block pre_end_body %}
 {% endblock %}
